@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	tapv1 "github.com/mickamy/grpc-tap/gen/tap/v1"
+	tapv1 "github.com/proto-tap/grpc-tap/gen/tap/v1"
 )
 
 type exportFormat int

@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mickamy/grpc-tap/broker"
-	"github.com/mickamy/grpc-tap/proxy"
+	"github.com/proto-tap/grpc-tap/broker"
+	"github.com/proto-tap/grpc-tap/proxy"
 )
 
 func TestBroker_PublishSubscribe(t *testing.T) {

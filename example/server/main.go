@@ -12,8 +12,8 @@ import (
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
 
-	echov1 "github.com/mickamy/grpc-tap/example/gen/echo/v1"
-	"github.com/mickamy/grpc-tap/example/gen/echo/v1/echov1connect"
+	echov1 "github.com/proto-tap/grpc-tap/example/gen/echo/v1"
+	"github.com/proto-tap/grpc-tap/example/gen/echo/v1/echov1connect"
 )
 
 type echoServer struct{}

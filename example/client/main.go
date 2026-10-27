@@ -14,8 +14,8 @@ import (
 	"connectrpc.com/connect"
 	"golang.org/x/net/http2"
 
-	echov1 "github.com/mickamy/grpc-tap/example/gen/echo/v1"
-	"github.com/mickamy/grpc-tap/example/gen/echo/v1/echov1connect"
+	echov1 "github.com/proto-tap/grpc-tap/example/gen/echo/v1"
+	"github.com/proto-tap/grpc-tap/example/gen/echo/v1/echov1connect"
 )
 
 func main() {

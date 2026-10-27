@@ -305,8 +305,8 @@ const file_echo_v1_echo_proto_rawDesc = "" +
 	"\vEchoService\x123\n" +
 	"\x04Echo\x12\x14.echo.v1.EchoRequest\x1a\x15.echo.v1.EchoResponse\x126\n" +
 	"\x05Upper\x12\x15.echo.v1.UpperRequest\x1a\x16.echo.v1.UpperResponse\x12<\n" +
-	"\aReverse\x12\x17.echo.v1.ReverseRequest\x1a\x18.echo.v1.ReverseResponseB\x8f\x01\n" +
-	"\vcom.echo.v1B\tEchoProtoP\x01Z6github.com/mickamy/grpc-tap/example/gen/echo/v1;echov1\xa2\x02\x03EXX\xaa\x02\aEcho.V1\xca\x02\bEcho_\\V1\xe2\x02\x14Echo_\\V1\\GPBMetadata\xea\x02\bEcho::V1b\x06proto3"
+	"\aReverse\x12\x17.echo.v1.ReverseRequest\x1a\x18.echo.v1.ReverseResponseB\x91\x01\n" +
+	"\vcom.echo.v1B\tEchoProtoP\x01Z8github.com/proto-tap/grpc-tap/example/gen/echo/v1;echov1\xa2\x02\x03EXX\xaa\x02\aEcho.V1\xca\x02\bEcho_\\V1\xe2\x02\x14Echo_\\V1\\GPBMetadata\xea\x02\bEcho::V1b\x06proto3"
 
 var (
 	file_echo_v1_echo_proto_rawDescOnce sync.Once

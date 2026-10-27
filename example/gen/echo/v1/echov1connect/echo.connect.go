@@ -8,7 +8,7 @@ import (
 	connect "connectrpc.com/connect"
 	context "context"
 	errors "errors"
-	v1 "github.com/mickamy/grpc-tap/example/gen/echo/v1"
+	v1 "github.com/proto-tap/grpc-tap/example/gen/echo/v1"
 	http "net/http"
 	strings "strings"
 )

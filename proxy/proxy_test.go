@@ -3,7 +3,7 @@ package proxy_test
 import (
 	"testing"
 
-	"github.com/mickamy/grpc-tap/proxy"
+	"github.com/proto-tap/grpc-tap/proxy"
 )
 
 func TestCallType_String(t *testing.T) {

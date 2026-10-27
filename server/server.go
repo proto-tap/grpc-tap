@@ -11,9 +11,9 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/mickamy/grpc-tap/broker"
-	tapv1 "github.com/mickamy/grpc-tap/gen/tap/v1"
-	"github.com/mickamy/grpc-tap/proxy"
+	"github.com/proto-tap/grpc-tap/broker"
+	tapv1 "github.com/proto-tap/grpc-tap/gen/tap/v1"
+	"github.com/proto-tap/grpc-tap/proxy"
 )
 
 // Server exposes a gRPC TapService for TUI clients to connect to.

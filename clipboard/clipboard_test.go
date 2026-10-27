@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/mickamy/grpc-tap/clipboard"
+	"github.com/proto-tap/grpc-tap/clipboard"
 )
 
 func TestCopy(t *testing.T) {
