@@ -10,14 +10,23 @@ terminal UI. Inspect requests, view headers, copy bodies, and replay calls — a
 ### Homebrew
 
 ```bash
-brew install mickamy/tap/grpc-tap
+brew install --cask proto-tap/tap/grpc-tap
 ```
+
+> [!NOTE]
+> grpc-tap has moved from the `mickamy/tap` formula to the `proto-tap/tap` cask. If you installed it from `mickamy/tap`,
+> switch with:
+>
+> ```bash
+> brew uninstall grpc-tap
+> brew install --cask proto-tap/tap/grpc-tap
+> ```
 
 ### Go
 
 ```bash
-go install github.com/mickamy/grpc-tap@latest
-go install github.com/mickamy/grpc-tap/cmd/grpc-tapd@latest
+go install github.com/proto-tap/grpc-tap@latest
+go install github.com/proto-tap/grpc-tap/cmd/grpc-tapd@latest
 ```
 
 ### Docker
@@ -44,7 +53,7 @@ docker run --rm -p 8080:8080 -p 9092:9092 \
 ### Build from source
 
 ```bash
-git clone https://github.com/mickamy/grpc-tap.git
+git clone https://github.com/proto-tap/grpc-tap.git
 cd grpc-tap
 make install
 ```
