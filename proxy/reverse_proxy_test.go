@@ -7,7 +7,7 @@ import (
 
 	"connectrpc.com/connect"
 
-	"github.com/mickamy/grpc-tap/proxy"
+	"github.com/proto-tap/grpc-tap/proxy"
 )
 
 func TestDetectProtocol(t *testing.T) {

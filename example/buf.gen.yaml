@@ -3,7 +3,7 @@ managed:
   enabled: true
   override:
     - file_option: go_package_prefix
-      value: github.com/mickamy/grpc-tap/example/gen
+      value: github.com/proto-tap/grpc-tap/example/gen
 plugins:
   - remote: buf.build/protocolbuffers/go
     out: gen

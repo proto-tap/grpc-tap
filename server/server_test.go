@@ -10,10 +10,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/mickamy/grpc-tap/broker"
-	tapv1 "github.com/mickamy/grpc-tap/gen/tap/v1"
-	"github.com/mickamy/grpc-tap/proxy"
-	"github.com/mickamy/grpc-tap/server"
+	"github.com/proto-tap/grpc-tap/broker"
+	tapv1 "github.com/proto-tap/grpc-tap/gen/tap/v1"
+	"github.com/proto-tap/grpc-tap/proxy"
+	"github.com/proto-tap/grpc-tap/server"
 )
 
 // fakeProxy implements proxy.Proxy for testing.

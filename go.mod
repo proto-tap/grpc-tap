@@ -1,4 +1,4 @@
-module github.com/mickamy/grpc-tap
+module github.com/proto-tap/grpc-tap
 
 go 1.25.0
 

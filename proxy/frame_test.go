@@ -10,7 +10,7 @@ import (
 
 	"google.golang.org/protobuf/encoding/protowire"
 
-	"github.com/mickamy/grpc-tap/proxy"
+	"github.com/proto-tap/grpc-tap/proxy"
 )
 
 func buildGRPCFrame(payload []byte) []byte {

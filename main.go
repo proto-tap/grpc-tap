@@ -7,7 +7,7 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 
-	"github.com/mickamy/grpc-tap/tui"
+	"github.com/proto-tap/grpc-tap/tui"
 )
 
 var version = "dev"

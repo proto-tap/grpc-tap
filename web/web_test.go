@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mickamy/grpc-tap/broker"
-	"github.com/mickamy/grpc-tap/proxy"
-	"github.com/mickamy/grpc-tap/web"
+	"github.com/proto-tap/grpc-tap/broker"
+	"github.com/proto-tap/grpc-tap/proxy"
+	"github.com/proto-tap/grpc-tap/web"
 )
 
 type fakeProxy struct {

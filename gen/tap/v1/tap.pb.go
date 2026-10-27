@@ -486,9 +486,9 @@ const file_tap_v1_tap_proto_rawDesc = "" +
 	"\n" +
 	"TapService\x126\n" +
 	"\x05Watch\x12\x14.tap.v1.WatchRequest\x1a\x15.tap.v1.WatchResponse0\x01\x127\n" +
-	"\x06Replay\x12\x15.tap.v1.ReplayRequest\x1a\x16.tap.v1.ReplayResponseB}\n" +
+	"\x06Replay\x12\x15.tap.v1.ReplayRequest\x1a\x16.tap.v1.ReplayResponseB\x7f\n" +
 	"\n" +
-	"com.tap.v1B\bTapProtoP\x01Z,github.com/mickamy/grpc-tap/gen/tap/v1;tapv1\xa2\x02\x03TXX\xaa\x02\x06Tap.V1\xca\x02\x06Tap\\V1\xe2\x02\x12Tap\\V1\\GPBMetadata\xea\x02\aTap::V1b\x06proto3"
+	"com.tap.v1B\bTapProtoP\x01Z.github.com/proto-tap/grpc-tap/gen/tap/v1;tapv1\xa2\x02\x03TXX\xaa\x02\x06Tap.V1\xca\x02\x06Tap\\V1\xe2\x02\x12Tap\\V1\\GPBMetadata\xea\x02\aTap::V1b\x06proto3"
 
 var (
 	file_tap_v1_tap_proto_rawDescOnce sync.Once
