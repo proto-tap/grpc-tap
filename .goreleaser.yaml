@@ -36,18 +36,43 @@ archives:
       - tar.gz
     name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
 
+homebrew_casks:
+  - name: grpc-tap
+    homepage: https://github.com/proto-tap/grpc-tap
+    description: Watch gRPC traffic in real-time with a TUI
+    binaries:
+      - grpc-tap
+      - grpc-tapd
+    hooks:
+      post:
+        install_steps: |
+          on_macos do
+            run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{ .StagedPath }}"]
+          end
+    repository:
+      owner: proto-tap
+      name: homebrew-tap
+      token: "{{ .Env.TAP_GITHUB_TOKEN }}"
+
+# Points existing mickamy/tap users to the cask. Remove after the migration release.
 brews:
   - name: grpc-tap
-    homepage: https://github.com/mickamy/grpc-tap
+    homepage: https://github.com/proto-tap/grpc-tap
     description: Watch gRPC traffic in real-time with a TUI
+    directory: Formula
     install: |
       bin.install "grpc-tap"
       bin.install "grpc-tapd"
-    directory: Formula
+    custom_block: |
+      disable! date: "2027-04-27", because: "has moved to the proto-tap/tap cask", replacement_cask: "proto-tap/tap/grpc-tap"
+    caveats: |
+      grpc-tap has moved to the proto-tap/tap cask. Switch with:
+        brew uninstall grpc-tap
+        brew install --cask proto-tap/tap/grpc-tap
     repository:
       owner: mickamy
       name: homebrew-tap
-      token: "{{ .Env.TAP_GITHUB_TOKEN }}"
+      token: "{{ .Env.MICKAMY_GITHUB_TOKEN }}"
 
 changelog:
   sort: asc
